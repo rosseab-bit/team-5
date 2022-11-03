@@ -7,7 +7,7 @@ export default function NavBar() {
                 <Link to="/Inicio">Inicio</Link><br/>
                 <Link to="/Libros">Libros</Link>
                 <Link to="/categoria">Categoria</Link>
-                <Link to="/Login">Login</Link>
+                <Link to="/acceso">Acceso</Link>
                 <Link to="/Perfil">Perfil</Link>
             </nav>
         </>
