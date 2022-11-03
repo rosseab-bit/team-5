@@ -6,7 +6,7 @@ export default function NavBar() {
             <nav style={{ display: "flex", justifyContent: "space-around" }}>
                 <Link to="/Inicio">Inicio</Link><br/>
                 <Link to="/Libros">Libros</Link>
-                <Link to="/Categoría">Categoría</Link>
+                <Link to="/categoria">Categoria</Link>
                 <Link to="/Login">Login</Link>
                 <Link to="/Perfil">Perfil</Link>
             </nav>
