@@ -2,13 +2,16 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import Navbar from './navbar/Navbar'
 
 const Home = () => {
     return (
         <>
             <Container>
                 <Row>
-                    <Col sm={12}><h1>Nav Bar</h1></Col>
+                    <Col sm={12}>
+                        <Navbar></Navbar>
+                    </Col>
                 </Row>
                 <Row>
                     <Col sm={3}>Barra con filtros</Col>
