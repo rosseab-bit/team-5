@@ -3,24 +3,69 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Navbar from './navbar/Navbar'
+import CardMasVistos from './cards/CardMasVistos';
+import FiltrosLibros from './navbar/FiltrosLibros';
+import FooterComponent from './FooterComponent';
+
+
 
 const Home = () => {
     return (
         <>
-            <Container>
-                <Row>
-                    <Col sm={12}>
+            <Row>
+                <Col sm={12}>
+                    <div
+                        style={{
+                            marginTop: 5,
+                            marginBottom: 10,
+                            backgroundColor: '#7895B2',
+                            height: 50,
+                            alignItems: 'center',
+                            borderRadius: 20,
+                            marginLeft: 5,
+                            marginRight: 5
+                        }}
+                    >
                         <Navbar></Navbar>
-                    </Col>
-                </Row>
-                <Row>
-                    <Col sm={3}>Barra con filtros</Col>
-                    <Col sm={9}>Cuerpo</Col>
-                </Row>
-                <Row>
-                    <Col sm={12}><footer>This is a footer</footer></Col>
-                </Row>
-            </Container>
+                    </div>
+
+                </Col>
+            </Row>
+            <Row>
+                <Col sm={2}>
+                    <div
+                        style={{
+                            marginRight: 5,
+                            marginLeft: 10,
+                            alignItems: 'center',
+                            alginContent: 'center',
+                        }}
+                    >
+                        <p>Categorias</p>
+
+                        <FiltrosLibros />
+                    </div>
+
+                </Col>
+                <Col sm={10}>
+                    <div
+                        style={{
+                            display: 'flex',
+                            flexDirection: 'row',
+                            alignItems: 'center',
+                            alignContent: 'center',
+                            marginLeft: '10%'
+                        }}
+                    >
+                        <CardMasVistos />
+                    </div>
+                </Col>
+            </Row>
+            <Row>
+                <Col sm={12}>
+                    <FooterComponent />
+                </Col>
+            </Row>
         </>
     );
 }
