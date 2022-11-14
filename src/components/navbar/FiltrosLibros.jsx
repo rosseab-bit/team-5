@@ -6,7 +6,7 @@ const FiltrosLibros = () => {
         <>
             <Card style={{ width: '18rem' }}>
                 <ListGroup variant="flush">
-                    <ListGroup.Item>Terror</ListGroup.Item>
+                    <ListGroup.Item style={{borderRadius:10}}>Terror</ListGroup.Item>
                     <ListGroup.Item>Drama</ListGroup.Item>
                     <ListGroup.Item>Ciencia Ficcion</ListGroup.Item>
                     <ListGroup.Item>Historia</ListGroup.Item>
