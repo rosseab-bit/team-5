@@ -18,10 +18,10 @@ export default function NavBar() {
                 paddingLeft:"10%"
                 }}
                 >
-                <Link to="/Inicio">Inicio</Link>
-                <Link to="/Libros">Lista de Libros</Link>
-                <Link to="/Autor">Autores</Link>
-                <Link to="/Categoría">Categorías</Link>
+                <Link style={{textDecorationLine:"none" }} to="/Inicio">Inicio</Link>
+                <Link style={{textDecorationLine:"none"}}to="/Libros">Lista de Libros</Link>
+                <Link style={{textDecorationLine:"none"}}to="/Autor">Autores</Link>
+                <Link style={{textDecorationLine:"none"}}to="/Categoría">Categorías</Link>
                 <Link to="/"></Link>
             
             </nav>
