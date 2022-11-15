@@ -5,7 +5,7 @@ import Navbar from './navbar/Navbar'
 import CardMasVistos from './cards/CardMasVistos';
 import FiltrosLibros from './navbar/FiltrosLibros';
 import FooterComponent from './FooterComponent';
-
+import CardItem from './cards/CardItem';
 
 
 const Home = () => {
@@ -53,11 +53,16 @@ const Home = () => {
                             flexDirection: 'row',
                             alignItems: 'center',
                             alignContent: 'center',
-                            marginLeft: '10%'
+                            marginLeft: '10%',
+                            marginBottom: "10px"
                         }}
                     >
                         <CardMasVistos />
                     </div>
+                    <div>
+                    <CardItem />
+                    </div>
+                    
                 </Col>
             </Row>
             <Row>

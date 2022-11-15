@@ -4,7 +4,7 @@ import ListGroup from 'react-bootstrap/ListGroup';
 const FiltrosLibros = () => {
     return (
         <>
-            <Card style={{ width: '18rem' }}>
+            <Card style={{ width: '15rem' }}>
                 <ListGroup variant="flush">
                     <ListGroup.Item style={{borderRadius:10}}>Terror</ListGroup.Item>
                     <ListGroup.Item>Drama</ListGroup.Item>
