@@ -40,8 +40,6 @@ const Home = () => {
                             alginContent: 'center',
                         }}
                     >
-                        <p>Categorias</p>
-
                         <FiltrosLibros />
                     </div>
 
