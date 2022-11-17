@@ -16,7 +16,7 @@ const Home = () => {
                     <div
                         style={{
                             marginTop: 5,
-                            marginBottom: 10,
+                            marginBottom: 50,
                             backgroundColor: '#7895B2',
                             height: 50,
                             alignItems: 'center',
