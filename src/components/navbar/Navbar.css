@@ -1,0 +1,29 @@
+nav{
+    height: var(--navbarheight);
+    display: "flex";
+    background-color:#AEBDCA ;
+    justify-content:space-around ;
+    font-size: x-large;
+    font-style: italic;
+    font-family: initial; 
+    padding-left: 5%;     
+}
+.navLink{
+    text-decoration: none;
+    color: darkblue;
+}
+.navLabel{
+    color:darkblue;
+}
+.input {border-radius: 10px;
+    background-color:#E8DFCA ;
+    }
+
+.Enviar {
+    color: darkblue;
+    background-color:#E8DFCA ;
+    font-weight: initial;
+    font-size:medium;
+    border-radius:10px;
+}
+ 
