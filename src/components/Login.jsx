@@ -15,7 +15,7 @@ const Login = () => {
                     flexDirection: 'column',
                     alignItems: 'center',
                     alignContent: 'center',
-                    backgroundImage: `url(https://pixabay.com/get/gcd0b6ba0d5f91ac8948226ce8b40d1006b0b1d5a669247b79fb88fa75f3e89a5c4377d9aa88b7d0009853197bb52d344f715360d2d4ff10d3385ef6d1d15e2b9b7cf1cf6b6d71ff4fadd471ee398d20f_1280.jpg)`,
+                    backgroundImage: `url(${BackgroundLogin})`,
                     "background-repeat": 'no-repeat',
                     backgroundSize: 'cover',
                     backgroundPosition: 'center center',
