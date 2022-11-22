@@ -6,9 +6,15 @@ import CardMasVistos from './cards/CardMasVistos';
 import FiltrosLibros from './navbar/FiltrosLibros';
 import FooterComponent from './FooterComponent';
 import CardItem from './cards/CardItem';
+import UltimoGraduado from './statics/img/el-ultimo-graduado-el-ultimo-graduado.jpg'
 
 
 const Home = () => {
+    const dataBooks = {
+        title: "El ultimo graduado",
+        description: "La amenaza de la graduación cobra un peso significativo al tiempo que la innovadora trilogía de Naomi Novik, superventas del New York Times, continúa con la asombrosa secuela de \"Una educación mortal\". «El conocimiento otorga protección.» Ese es el lema oficial de la Escolomancia.",
+        bannerBook: UltimoGraduado
+    }
     return (
         <>
             <Row>
@@ -55,12 +61,12 @@ const Home = () => {
                             marginBottom: "10px"
                         }}
                     >
-                        <CardMasVistos />
+                        <CardMasVistos dataBooks={dataBooks} />
                     </div>
                     <div>
-                    <CardItem />
+                        <CardItem />
                     </div>
-                    
+
                 </Col>
             </Row>
             <Row>

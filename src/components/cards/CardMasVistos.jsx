@@ -1,22 +1,47 @@
+import React from 'react';
 import Card from 'react-bootstrap/Card';
 import CardGroup from 'react-bootstrap/CardGroup';
 import UltimoGraduado from '../statics/img/el-ultimo-graduado-el-ultimo-graduado.jpg';
-const CardMasVistos = () => {
+const CardMasVistos = ({dataBooks}) => {
+    const [onHover, setOnHover] = React.useState(false);
+    const handleMouseEnter = () =>{
+        setOnHover(true);
+    }
+    const handleMouseLeave = ()=>{
+        setOnHover(false);
+    }
     return (
         <>
+        <button
+        onMouseEnter={() => handleMouseEnter()}
+        onMouseLeave={() => handleMouseLeave()}
+        style={{
+            "all": "unset",
+            "cursor": "pointer",
+        }}
+        >
             <div
                 style={{
                     display: "grid",
                     "grid-template-columns": "auto auto",
-                    borderRadius: 2
+                    boxShadow: onHover ? "5px 5px 5px #7895B2" : "5px 5px 5px #F5EFE6",
+                    borderRadius: "10px 10px 10px 10px"
                 }}
             >
                 <div
                     style={{
                         backgroundColor: "#E8DFCA",
+                        borderRadius: "10px 0px 0px 10px"
                     }}
                 >
-                    <img src={UltimoGraduado} height="220px" width="auto" />
+                    <img 
+                    src={dataBooks.bannerBook} 
+                    height="220px" 
+                    width="auto" 
+                    style={{
+                        borderRadius: "10px 0px 0px 10px"
+                    }}
+                    />
                 </div>
                 <div
                     style={{
@@ -24,7 +49,9 @@ const CardMasVistos = () => {
                         flexDirection: "column",
                         backgroundColor: "#E8DFCA",
                         height: "220px",
-                        width: "200px"
+                        width: "200px",
+                        borderLeftStyle: "solid",
+                        borderRadius: "0px 10px 10px 0px"
 
 
                     }}
@@ -35,7 +62,7 @@ const CardMasVistos = () => {
                             textAlign: "center"
                         }}
                     >
-                        El ultimo graduado
+                        {dataBooks.title}
                     </p>
                     <p
                         style={{
@@ -45,11 +72,12 @@ const CardMasVistos = () => {
                             textAlign: "center"
                         }}
                     >
-                        La amenaza de la graduación cobra un peso significativo al tiempo que la innovadora trilogía de Naomi Novik, superventas del New York Times, continúa con la asombrosa secuela de "Una educación mortal". «El conocimiento otorga protección.» Ese es el lema oficial de la Escolomancia.
+                        {dataBooks.description}
                     </p>
 
                 </div>
             </div>
+            </button>
         </>
     );
 }
