@@ -40,8 +40,8 @@ const Home = () => {
                 <Col sm={2}>
                     <div
                         style={{
-                            marginRight: 5,
-                            marginLeft: 10,
+                            marginRight: 2,
+                            marginLeft: 5,
                             alignItems: 'center',
                             alginContent: 'center',
                         }}
@@ -61,6 +61,8 @@ const Home = () => {
                             marginBottom: "10px"
                         }}
                     >
+                        <CardMasVistos dataBooks={dataBooks} />
+                        <CardMasVistos dataBooks={dataBooks} />
                         <CardMasVistos dataBooks={dataBooks} />
                     </div>
                     <div>
