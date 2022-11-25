@@ -1,5 +1,5 @@
 import Button from 'react-bootstrap/Button';
-import BackgroundLogin from './statics/img/backroundLogin.jpg'
+import BackgroundLogin from './statics/img/backgroundLogin.jpg'
 import { Link } from "react-router-dom";
 const Login = () => {
     const goHome = () => {

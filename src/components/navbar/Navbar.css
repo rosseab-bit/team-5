@@ -1,4 +1,4 @@
-nav{
+.nav{
     height: var(--navbarheight);
     display: "flex";
     background-color:#AEBDCA ;
@@ -6,7 +6,7 @@ nav{
     font-size: x-large;
     font-style: italic;
     font-family: initial; 
-    padding-left: 5%;     
+    padding-left: 0%;     
 }
 .navLink{
     text-decoration: none;
@@ -16,7 +16,7 @@ nav{
     color:darkblue;
 }
 .input {border-radius: 10px;
-    background-color:#E8DFCA ;
+    background-color:#E8DFCA ;font-style: italic; text-align: center;
     }
 
 .Enviar {
@@ -27,3 +27,4 @@ nav{
     border-radius:10px;
 }
  
+.FirstIcon{ padding: 10px;color: darkblue;}
