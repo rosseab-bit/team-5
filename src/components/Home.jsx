@@ -65,7 +65,11 @@ const Home = () => {
                         <CardMasVistos dataBooks={dataBooks} />
                         <CardMasVistos dataBooks={dataBooks} />
                     </div>
-                    <div>
+                    <div
+                    style={{
+                        marginTop: 50
+                    }}
+                    >
                         <CardItem />
                     </div>
 
