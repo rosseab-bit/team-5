@@ -10,11 +10,132 @@ import UltimoGraduado from './statics/img/el-ultimo-graduado-el-ultimo-graduado.
 
 
 const Home = () => {
-    const dataBooks = {
-        title: "El ultimo graduado",
-        description: "La amenaza de la graduación cobra un peso significativo al tiempo que la innovadora trilogía de Naomi Novik, superventas del New York Times, continúa con la asombrosa secuela de \"Una educación mortal\". «El conocimiento otorga protección.» Ese es el lema oficial de la Escolomancia.",
-        bannerBook: UltimoGraduado
-    }
+    const dataBooks = [
+        {
+            title: "El ultimo graduado",
+            description: "La amenaza de la graduación cobra un peso significativo al tiempo que la innovadora trilogía de Naomi Novik, superventas del New York Times, continúa con la asombrosa secuela de \"Una educación mortal\". «El conocimiento otorga protección.» Ese es el lema oficial de la Escolomancia.",
+            bannerBook: UltimoGraduado
+        },
+        {
+            title: "El ultimo graduado",
+            description: "La amenaza de la graduación cobra un peso significativo al tiempo que la innovadora trilogía de Naomi Novik, superventas del New York Times, continúa con la asombrosa secuela de \"Una educación mortal\". «El conocimiento otorga protección.» Ese es el lema oficial de la Escolomancia.",
+            bannerBook: UltimoGraduado
+        },
+        {
+            title: "El ultimo graduado",
+            description: "La amenaza de la graduación cobra un peso significativo al tiempo que la innovadora trilogía de Naomi Novik, superventas del New York Times, continúa con la asombrosa secuela de \"Una educación mortal\". «El conocimiento otorga protección.» Ese es el lema oficial de la Escolomancia.",
+            bannerBook: UltimoGraduado
+        }
+    ]
+
+    const dataBaseBooks = [
+        {
+            "title": "El ultimo graduado",
+            "description": "La amenaza de la graduación cobra un peso significativo al tiempo que la innovadora trilogía de Naomi Novik, superventas del New York Times, continúa con la asombrosa secuela de 'Una educación mortal'. «El conocimiento otorga protección.» Ese es el lema oficial de la Escolomancia.",
+            "bannerBook": "Imagen del libro",
+            "precio": 200,
+            "categoria": "terror"
+        },
+        {
+            "title": "El ultimo graduado",
+            "description": "La amenaza de la graduación cobra un peso significativo al tiempo que la innovadora trilogía de Naomi Novik, superventas del New York Times, continúa con la asombrosa secuela de 'Una educación mortal'. «El conocimiento otorga protección.» Ese es el lema oficial de la Escolomancia.",
+            "bannerBook": "Imagen del libro",
+            "precio": 200,
+            "categoria": "terror"
+        },
+        {
+            "title": "El ultimo graduado",
+            "description": "La amenaza de la graduación cobra un peso significativo al tiempo que la innovadora trilogía de Naomi Novik, superventas del New York Times, continúa con la asombrosa secuela de 'Una educación mortal'. «El conocimiento otorga protección.» Ese es el lema oficial de la Escolomancia.",
+            "bannerBook": "Imagen del libro",
+            "precio": 200,
+            "categoria": "terror"
+        },
+        {
+            "title": "El ultimo graduado",
+            "description": "La amenaza de la graduación cobra un peso significativo al tiempo que la innovadora trilogía de Naomi Novik, superventas del New York Times, continúa con la asombrosa secuela de 'Una educación mortal'. «El conocimiento otorga protección.» Ese es el lema oficial de la Escolomancia.",
+            "bannerBook": "Imagen del libro",
+            "precio": 200,
+            "categoria": "terror"
+        },
+        {
+            "title": "El ultimo graduado",
+            "description": "La amenaza de la graduación cobra un peso significativo al tiempo que la innovadora trilogía de Naomi Novik, superventas del New York Times, continúa con la asombrosa secuela de 'Una educación mortal'. «El conocimiento otorga protección.» Ese es el lema oficial de la Escolomancia.",
+            "bannerBook": "Imagen del libro",
+            "precio": 200,
+            "categoria": "terror"
+        },
+        {
+            "title": "El ultimo graduado",
+            "description": "La amenaza de la graduación cobra un peso significativo al tiempo que la innovadora trilogía de Naomi Novik, superventas del New York Times, continúa con la asombrosa secuela de 'Una educación mortal'. «El conocimiento otorga protección.» Ese es el lema oficial de la Escolomancia.",
+            "bannerBook": "Imagen del libro",
+            "precio": 200,
+            "categoria": "terror"
+        },
+        {
+            "title": "El ultimo graduado",
+            "description": "La amenaza de la graduación cobra un peso significativo al tiempo que la innovadora trilogía de Naomi Novik, superventas del New York Times, continúa con la asombrosa secuela de 'Una educación mortal'. «El conocimiento otorga protección.» Ese es el lema oficial de la Escolomancia.",
+            "bannerBook": "Imagen del libro",
+            "precio": 200,
+            "categoria": "terror"
+        },
+        {
+            "title": "El ultimo graduado",
+            "description": "La amenaza de la graduación cobra un peso significativo al tiempo que la innovadora trilogía de Naomi Novik, superventas del New York Times, continúa con la asombrosa secuela de 'Una educación mortal'. «El conocimiento otorga protección.» Ese es el lema oficial de la Escolomancia.",
+            "bannerBook": "Imagen del libro",
+            "precio": 200,
+            "categoria": "terror"
+        },
+        {
+            "title": "El ultimo graduado",
+            "description": "La amenaza de la graduación cobra un peso significativo al tiempo que la innovadora trilogía de Naomi Novik, superventas del New York Times, continúa con la asombrosa secuela de 'Una educación mortal'. «El conocimiento otorga protección.» Ese es el lema oficial de la Escolomancia.",
+            "bannerBook": "Imagen del libro",
+            "precio": 200,
+            "categoria": "terror"
+        },
+        {
+            "title": "El ultimo graduado",
+            "description": "La amenaza de la graduación cobra un peso significativo al tiempo que la innovadora trilogía de Naomi Novik, superventas del New York Times, continúa con la asombrosa secuela de 'Una educación mortal'. «El conocimiento otorga protección.» Ese es el lema oficial de la Escolomancia.",
+            "bannerBook": "Imagen del libro",
+            "precio": 200,
+            "categoria": "terror"
+        },
+        {
+            "title": "El ultimo graduado",
+            "description": "La amenaza de la graduación cobra un peso significativo al tiempo que la innovadora trilogía de Naomi Novik, superventas del New York Times, continúa con la asombrosa secuela de 'Una educación mortal'. «El conocimiento otorga protección.» Ese es el lema oficial de la Escolomancia.",
+            "bannerBook": "Imagen del libro",
+            "precio": 200,
+            "categoria": "terror"
+        },
+        {
+            "title": "El ultimo graduado",
+            "description": "La amenaza de la graduación cobra un peso significativo al tiempo que la innovadora trilogía de Naomi Novik, superventas del New York Times, continúa con la asombrosa secuela de 'Una educación mortal'. «El conocimiento otorga protección.» Ese es el lema oficial de la Escolomancia.",
+            "bannerBook": "Imagen del libro",
+            "precio": 200,
+            "categoria": "terror"
+        },
+        {
+            "title": "El ultimo graduado",
+            "description": "La amenaza de la graduación cobra un peso significativo al tiempo que la innovadora trilogía de Naomi Novik, superventas del New York Times, continúa con la asombrosa secuela de 'Una educación mortal'. «El conocimiento otorga protección.» Ese es el lema oficial de la Escolomancia.",
+            "bannerBook": "Imagen del libro",
+            "precio": 200,
+            "categoria": "terror"
+        },
+        {
+            "title": "El ultimo graduado",
+            "description": "La amenaza de la graduación cobra un peso significativo al tiempo que la innovadora trilogía de Naomi Novik, superventas del New York Times, continúa con la asombrosa secuela de 'Una educación mortal'. «El conocimiento otorga protección.» Ese es el lema oficial de la Escolomancia.",
+            "bannerBook": "Imagen del libro",
+            "precio": 200,
+            "categoria": "terror"
+        },
+        {
+            "title": "El ultimo graduado",
+            "description": "La amenaza de la graduación cobra un peso significativo al tiempo que la innovadora trilogía de Naomi Novik, superventas del New York Times, continúa con la asombrosa secuela de 'Una educación mortal'. «El conocimiento otorga protección.» Ese es el lema oficial de la Escolomancia.",
+            "bannerBook": "Imagen del libro",
+            "precio": 200,
+            "categoria": "terror"
+        }
+    ]
+
     return (
         <>
             <Row>
@@ -50,27 +171,41 @@ const Home = () => {
                     </div>
 
                 </Col>
-                <Col sm={10}>
+                <Col sm={10} 
+                style={{
+                    marginBottom:50,
+                    }}
+                    >
                     <div
                         style={{
                             display: 'flex',
                             flexDirection: 'row',
                             alignItems: 'center',
                             alignContent: 'center',
-                            marginLeft: '10%',
-                            marginBottom: "10px"
+                            marginBottom: "10px",
+                            justifyContent: 'center',
+                            flexWrap: 'wrap'
                         }}
                     >
-                        <CardMasVistos dataBooks={dataBooks} />
-                        <CardMasVistos dataBooks={dataBooks} />
-                        <CardMasVistos dataBooks={dataBooks} />
+                        {dataBooks.map((item)=>(
+                            <CardMasVistos dataBooks={item} />
+                        ))}                       
                     </div>
                     <div
-                    style={{
-                        marginTop: 50
-                    }}
-                    >
-                        <CardItem />
+                        style={{
+                            marginTop: 50,
+                            display: 'flex',
+                            flexDirection: 'row',
+                            alignItems: 'center',
+                            alignContent: 'center',
+                            justifyContent: 'center',
+                            flexWrap: 'wrap',
+                            marginBottom: 10,
+                            margin: 100
+                        }}
+                    >{dataBaseBooks.map((item) => (
+                        <CardItem dataBaseBooks={dataBaseBooks} />
+                    ))}
                     </div>
 
                 </Col>
