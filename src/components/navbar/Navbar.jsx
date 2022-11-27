@@ -14,7 +14,7 @@ export default function NavBar(props) {
         <>
             <nav className="nav">
 
-                <Link className="navLink" to="/Login">
+                <Link className="navLink" to="/home">
                     <FontAwesomeIcon icon={faHome} className="FirstIcon" />
                     Inicio
                 </Link>

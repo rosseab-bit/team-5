@@ -6,6 +6,8 @@ import {
 } from "react-router-dom";
 import Home from './components/Home';
 import Login from './components/Login';
+import ErrorNotFound from './components/ErrorNotFound'
+
 function App() {
   return (
     <>
@@ -13,6 +15,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Login />} />
           <Route path="home" element={<Home />} />
+          <Route path= '*' element={<ErrorNotFound />} />
         </Routes>
       </BrowserRouter>
     </>
