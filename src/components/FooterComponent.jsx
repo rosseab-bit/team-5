@@ -28,10 +28,14 @@ const FooterComponent = () => {
                     marginTop: 5
                 }}
                 >
-                    <p><RiHome2Line /> Sobre nosotros</p>
+                    <p
+                    style={{
+                        marginTop: 20
+                    }}
+                    >Sobre nosotros</p>
                     <ul
                         style={{
-                            listStyle: 'none'
+                            listStyle: 'none',
                         }}
                     >
                         <li><FaAngleRight /> Grupo 5</li>
@@ -58,10 +62,14 @@ const FooterComponent = () => {
                         style={{
                             'object-fit': 'cover',
                             'border-radius': '50%',
-                            'height': '150px'
+                            'height': '150px',
+                            marginTop: 20
                         }}
                     />
                     <p
+                    style={{
+                        marginTop: 20
+                    }}
                     >
                         {`Copyright © Upbeat Code ${year}`}
                     </p>
@@ -71,7 +79,11 @@ const FooterComponent = () => {
                     margionTop: 5
                 }}
                 >
-                    <p>Nos puedes encontrar en:</p>
+                    <p
+                    style={{
+                        marginTop: 20
+                    }}
+                    >Nos puedes encontrar en</p>
                     <ul
                         style={{
                             listStyle: 'none'

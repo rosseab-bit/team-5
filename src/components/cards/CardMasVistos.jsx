@@ -18,7 +18,7 @@ const CardMasVistos = ({dataBooks}) => {
         style={{
             "all": "unset",
             "cursor": "pointer",
-            marginLeft: 20
+            marginLeft: 10
         }}
         >
             <div

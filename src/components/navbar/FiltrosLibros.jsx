@@ -1,26 +1,70 @@
 import Card from 'react-bootstrap/Card';
 import ListGroup from 'react-bootstrap/ListGroup';
+import { FcReading } from 'react-icons/fc';
+import { FcOpenedFolder } from 'react-icons/fc';
+import { IoBookOutline } from 'react-icons/io5'
+import { IoRadioButtonOnOutline } from 'react-icons/io5'
 
 const FiltrosLibros = () => {
     return (
         <>
-            <Card style={{ width: '15rem'}}>
-                <ListGroup variant="flush">
-                    <ListGroup.Item 
+            <div
+                style={{
+                    marginTop: 10,
+                    marginLeft: 65,
+                }}
+            >
+                <p>
+                    <IoBookOutline />  Categorias
+                </p>
+                <ul
                     style={{
-                        borderRadius:5, 
-                        backgroundColor: "#AEBDCA",
-                        textAlign: "center"
+                        listStyle: 'none',
+                        marginTop: 1
                     }}
-                        >Categoria
-                    </ListGroup.Item>
-                    <ListGroup.Item>Terror</ListGroup.Item>
-                    <ListGroup.Item>Drama</ListGroup.Item>
-                    <ListGroup.Item>Ciencia Ficcion</ListGroup.Item>
-                    <ListGroup.Item>Historia</ListGroup.Item>
-                    <ListGroup.Item>Romance</ListGroup.Item>
-                </ListGroup>
-            </Card>
+                >
+                    <li>
+                        <button
+                            style={{
+                                all: "unset",
+                                cursor: "pointer"
+                            }}
+                        >
+                            <IoRadioButtonOnOutline /> Terror
+                        </button>
+                    </li>
+                    <li>
+                    <button
+                            style={{
+                                all: "unset",
+                                cursor: "pointer"
+                            }}
+                        >
+                        <IoRadioButtonOnOutline />  Comedia
+                        </button>
+                    </li>
+                    <li>
+                    <button
+                            style={{
+                                all: "unset",
+                                cursor: "pointer"
+                            }}
+                        >
+                        <IoRadioButtonOnOutline /> Romance
+                        </button>
+                    </li>
+                    <li>
+                    <button
+                            style={{
+                                all: "unset",
+                                cursor: "pointer"
+                            }}
+                        >
+                        <IoRadioButtonOnOutline /> Historia
+                        </button>
+                    </li>
+                </ul>
+            </div>
         </>
     );
 }

@@ -144,12 +144,9 @@ const Home = () => {
                         style={{
                             marginTop: 5,
                             marginBottom: 10,
-                            backgroundColor: '#7895B2',
                             height: 50,
                             alignItems: 'center',
                             borderRadius: 20,
-                            marginLeft: 5,
-                            marginRight: 5
                         }}
                     >
                         <Navbar></Navbar>
@@ -161,8 +158,6 @@ const Home = () => {
                 <Col sm={2}>
                     <div
                         style={{
-                            marginRight: 2,
-                            marginLeft: 5,
                             alignItems: 'center',
                             alginContent: 'center',
                         }}
@@ -174,6 +169,7 @@ const Home = () => {
                 <Col sm={10} 
                 style={{
                     marginBottom:50,
+                    marginLeft: 0
                     }}
                     >
                     <div
@@ -197,11 +193,11 @@ const Home = () => {
                             display: 'flex',
                             flexDirection: 'row',
                             alignItems: 'center',
-                            alignContent: 'center',
-                            justifyContent: 'center',
+                            alignContent: 'flex-start',
+                            justifyContent: 'flex-start',
                             flexWrap: 'wrap',
                             marginBottom: 10,
-                            margin: 100
+                            margin: 50
                         }}
                     >{dataBaseBooks.map((item) => (
                         <CardItem dataBaseBooks={dataBaseBooks} />
