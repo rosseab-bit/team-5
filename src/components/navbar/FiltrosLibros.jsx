@@ -8,7 +8,7 @@ const FiltrosLibros = () => {
                 <ListGroup variant="flush">
                     <ListGroup.Item 
                     style={{
-                        borderRadius:10, 
+                        borderRadius:5, 
                         backgroundColor: "#AEBDCA",
                         textAlign: "center"
                     }}
