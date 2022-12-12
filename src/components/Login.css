@@ -1,0 +1,25 @@
+.form{
+    display: flexbox;
+    margin-top: 20%;
+    padding-top: 4%;
+    margin-left: 0%;
+    text-align: center;
+    color: #fff ;
+    background-color:rgba(0,0,0,.8);
+    width: 350px;
+    height: 350px;
+    border-radius: 10%;
+}
+.titulo{font-size: 25px;
+    text-align: center;}
+
+.socialLogin{
+    padding-top: 15px; 
+    padding-left: 0%;
+    font-size: x-large;}
+    
+.button{text-decoration-line: none; color:#fff;}
+input{width: 90%;margin-left: 5%;margin-right: 5%;}
+
+.google{color: red;border-radius: 20%;}
+.facebook{color: blue;border-radius: 20%;}

@@ -13,7 +13,8 @@ const Home = () => {
     const dataBooks = {
         title: "El ultimo graduado",
         description: "La amenaza de la graduación cobra un peso significativo al tiempo que la innovadora trilogía de Naomi Novik, superventas del New York Times, continúa con la asombrosa secuela de \"Una educación mortal\". «El conocimiento otorga protección.» Ese es el lema oficial de la Escolomancia.",
-        bannerBook: UltimoGraduado
+        bannerBook: UltimoGraduado,
+        categoria: "Ciencia Ficción",
     }
     return (
         <>

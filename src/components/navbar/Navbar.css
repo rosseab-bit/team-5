@@ -3,28 +3,46 @@
     display: "flex";
     background-color:#AEBDCA ;
     justify-content:space-around ;
-    font-size: x-large;
+    font-size: 20px;
     font-style: italic;
     font-family: initial; 
     padding-left: 0%;     
 }
 .navLink{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-decoration: none;
-    color: darkblue;
+    color: black;
+}
+.navLink:hover{
+    color: #E8DFCA
 }
 .navLabel{
-    color:darkblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:black;
 }
 .input {border-radius: 10px;
     background-color:#E8DFCA ;font-style: italic; text-align: center;
+    margin-top: 2px;
+    margin-bottom: 2px;
     }
 
 .Enviar {
-    color: darkblue;
+    color: black;
     background-color:#E8DFCA ;
     font-weight: initial;
     font-size:medium;
     border-radius:10px;
+    border-color: black;
+    margin-top: 2px;
+    margin-bottom: 2px;
 }
- 
-.FirstIcon{ padding: 10px;color: darkblue;}
+.Enviar:hover{
+    background-color:black;
+    color: #E8DFCA;
+}
+
+.FirstIcon{ padding: 10px;color: black;}
